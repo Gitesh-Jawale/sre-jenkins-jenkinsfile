@@ -4,7 +4,9 @@ folder('seedjobs') {
         scm {
             git {
                 branch('master')
-                url('https://github.com/your-username/your-repo.git')
+                remote {
+                    url('https://github.com/your-username/your-repo.git')
+                }
             }
         }
         steps {
