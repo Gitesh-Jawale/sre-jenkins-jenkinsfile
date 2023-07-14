@@ -1,6 +1,5 @@
 folder('seedjobs') {
     freeStyleJob('seedJobs/main') {
-        label('master')
         scm {
             git {
                 branch('master')
