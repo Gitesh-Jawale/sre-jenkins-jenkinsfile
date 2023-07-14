@@ -11,8 +11,8 @@ folder('seedjobs') {
         }
         steps {
             dsl {
-                external('jobdsl/*/folders.jenkins')
-                external('jobdsl/**/*_job.jenkins')
+                external('JobDSL/*/folders.jenkins')
+                external('JobDSL/**/*_job.jenkins')
             }
         }
     }
