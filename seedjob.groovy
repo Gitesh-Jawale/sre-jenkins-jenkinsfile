@@ -1,5 +1,5 @@
 folder('MainSeedJobFolder') {
-    freeStyleJob('seedJobs/mainJobDSl') {
+    freeStyleJob('MainSeedJobFolder/mainJobDSl') {
         scm {
             git {
                 branch('dev')
