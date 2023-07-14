@@ -2,9 +2,9 @@ folder('seedjobs') {
     freeStyleJob('seedJobs/main') {
         scm {
             git {
-                branch('master')
+                branch('dev')
                 remote {
-                    url('https://github.com/your-username/your-repo.git')
+                    url('https://github.com/Gitesh-Jawale/SRE-Jenkins-JobDSL.git')
                 }
             }
         }
