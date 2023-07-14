@@ -1,4 +1,4 @@
-folder('seedjobs') {
+folder('MainSeedJobFolder') {
     freeStyleJob('seedJobs/mainJobDSl') {
         scm {
             git {
